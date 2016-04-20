@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.github.scala-blitz
+Implementation-Title: scala-blitz
+Implementation-Version: 1.0-M1
+Implementation-Vendor-Id: com.github.scala-blitz
+Specification-Vendor: com.github.scala-blitz
+Specification-Title: scala-blitz
+Specification-Version: 1.0-M1
+

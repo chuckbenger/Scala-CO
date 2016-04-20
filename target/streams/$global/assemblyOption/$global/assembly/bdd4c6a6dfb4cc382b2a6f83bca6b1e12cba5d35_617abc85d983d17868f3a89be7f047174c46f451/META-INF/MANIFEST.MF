@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Typesafe Inc.
+Implementation-Title: atmos-trace
+Implementation-Version: 1.3.0
+Implementation-Vendor-Id: com.typesafe.atmos
+Specification-Vendor: Typesafe Inc.
+Specification-Title: atmos-trace
+Specification-Version: 1.3.0
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="scala-co"
+		module="scala-co$sources_javadoc_2.10"
+		revision="1.0"
+		status="integration"
+		publication="20141030063534"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="atmos-trace-compile" visibility="private" description="" extends="runtime-internal"/>
+		<conf name="atmos-trace-test" visibility="private" description="" extends="atmos-trace-compile,test-internal"/>
+		<conf name="atmos-dev" visibility="private" description=""/>
+		<conf name="atmos-console" visibility="private" description=""/>
+		<conf name="atmos-weave" visibility="private" description=""/>
+		<conf name="atmos-sigar" visibility="private" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.slick" name="slick_2.10" rev="2.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="slick_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slick_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="slf4j-nop" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-nop" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.h2database" name="h2" rev="1.3.170" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="h2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="h2" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="akka-actor_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-actor_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe" name="config" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="config" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="config" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.15-M1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="sqlite-jdbc" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="sqlite-jdbc" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="joda-time" name="joda-time" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="joda-time" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="joda-time" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.4.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="protobuf-java" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="c3p0" name="c3p0" rev="0.9.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="c3p0" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="c3p0" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.github.scala-blitz" name="scala-blitz_2.10" rev="1.0-M1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="scala-blitz_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-blitz_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.github.axel22" name="scalameter_2.10" rev="0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="scalameter_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalameter_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="1.9.1" transitive="false" conf="compile->default(compile);runtime->default(compile);compile-internal->default(compile);runtime-internal->default(compile);atmos-trace-compile->default(compile)">
+			<artifact name="scalatest_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalatest_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-actors" rev="2.10.0" transitive="false" conf="compile->default(compile);runtime->default(compile);compile-internal->default(compile);runtime-internal->default(compile);atmos-trace-compile->default(compile)">
+			<artifact name="scala-actors" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-actors" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.clapper" name="classutil_2.10" rev="1.0.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="classutil_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="classutil_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm" rev="5.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="asm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="asm" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm-commons" rev="5.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="asm-commons" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="asm-commons" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm-tree" rev="5.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="asm-tree" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="asm-tree" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm-util" rev="5.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="asm-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="asm-util" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.clapper" name="grizzled-scala_2.10" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="grizzled-scala_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="grizzled-scala_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-async_2.10" rev="0.9.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="scala-async_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-async_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jline" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.clapper" name="grizzled-slf4j_2.10" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="grizzled-slf4j_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="grizzled-slf4j_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" transitive="false" conf="test->default(compile);test-internal->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="scalatest_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalatest_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" transitive="false" conf="scala-tool->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="jline" rev="2.10.3" transitive="false" conf="scala-tool->default(compile)">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jline" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.jansi" name="jansi" rev="1.4" transitive="false" conf="scala-tool->default(compile)">
+			<artifact name="jansi" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jansi" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.aspectj" name="aspectjrt" rev="1.7.3" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="aspectjrt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="aspectjrt" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-remote_2.10" rev="2.2.1" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="akka-remote_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-remote_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.netty" name="netty" rev="3.6.6.Final" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="netty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="netty" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.uncommons.maths" name="uncommons-maths" rev="1.2.2a" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="uncommons-maths" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="uncommons-maths" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.10" rev="2.2.1" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="akka-slf4j_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-slf4j_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource" name="sigar" rev="1.6.4" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="sigar" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="sigar" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="log4j" name="log4j" rev="1.2.15" transitive="false" conf="atmos-trace-compile->default(compile);atmos-trace-test->default(compile)">
+			<artifact name="log4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.3" transitive="false" conf="atmos-weave->default(compile)">
+			<artifact name="aspectjweaver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="aspectjweaver" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

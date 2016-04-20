@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala-co-1-build"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.13"
+		extra-scalaVersion="2.10"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140715200825"/>
+	<dependencies>
+		<module organisation="com.typesafe.sbt" name="sbt-atmos">
+			<revision name="0.3.2" status="release" pubdate="20131021141632" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<metadata-artifact status="no" details="" size="1904" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-atmos/scala_2.10/sbt_0.13/0.3.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="scala-co-1-build" conf="compile" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-atmos" type="jar" ext="jar" status="no" details="" size="154337" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-atmos/jars/sbt-atmos-0.3.2.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-atmos/scala_2.10/sbt_0.13/0.3.2/jars/sbt-atmos.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjtools">
+			<revision name="1.7.3" status="release" pubdate="20130621191804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2366" time="0" location="/Users/charlesbenger/.ivy2/cache/org.aspectj/aspectjtools/ivy-1.7.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-atmos" conf="compile" rev="1.7.3" rev-constraint-default="1.7.3" rev-constraint-dynamic="1.7.3" callerrev="0.3.2"/>
+				<artifacts>
+					<artifact name="aspectjtools" type="jar" ext="jar" status="no" details="" size="9934446" time="0" location="/Users/charlesbenger/.ivy2/cache/org.aspectj/aspectjtools/jars/aspectjtools-1.7.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/aspectj/aspectjtools/1.7.3/aspectjtools-1.7.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="sbt-revolver">
+			<revision name="0.7.2" status="release" pubdate="20140317104258" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spray/sbt-revolver" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+				<license name="Apache License 2.0" url="https://github.com/spray/sbt-revolver/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2003" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="scala-co-1-build" conf="compile" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-revolver" type="jar" ext="jar" status="no" details="" size="105230" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/jars/sbt-revolver-0.7.2.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.2/jars/sbt-revolver.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="default" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20140715200801" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="scala-co-1-build" conf="compile" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains" name="sbt-structure">
+			<revision name="2.4.0" status="release" pubdate="20140527185841" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="1614" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="global-plugins" conf="compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-structure" type="jar" ext="jar" status="no" details="" size="202182" time="0" location="/Users/charlesbenger/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/jars/sbt-structure-2.4.0.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/jars/sbt-structure.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

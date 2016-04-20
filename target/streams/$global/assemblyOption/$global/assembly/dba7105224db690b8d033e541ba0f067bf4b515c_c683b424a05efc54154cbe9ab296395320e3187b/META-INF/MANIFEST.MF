@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1355971465648
+Bundle-ManifestVersion: 2
+Bundle-Name: Scala Actors
+Bundle-SymbolicName: org.scala-lang.scala-actors
+Bundle-Version: 2.10.0.v20121205-112020-VFINAL-18481cef9b
+Created-By: 1.6.0_23 (Sun Microsystems Inc.)
+Export-Package: scala.actors.threadpool;uses:="scala.actors.threadpool.h
+ elpers,scala.actors.threadpool.locks";version="2.10.0.v20121205-112020-
+ VFINAL-18481cef9b",scala.actors.remote;uses:="scala.runtime,scala,scala
+ .actors,scala.collection,scala.reflect,scala.collection.mutable,scala.c
+ ollection.generic,scala.collection.immutable,scala.util";version="2.10.
+ 0.v20121205-112020-VFINAL-18481cef9b",scala.actors.threadpool.helpers;u
+ ses:="scala.actors.threadpool,scala.actors.threadpool.locks";version="2
+ .10.0.v20121205-112020-VFINAL-18481cef9b",scala.actors.threadpool.locks
+ ;uses:="scala.actors.threadpool,scala.actors.threadpool.helpers";versio
+ n="2.10.0.v20121205-112020-VFINAL-18481cef9b",scala.actors.scheduler;us
+ es:="scala.runtime,scala,scala.actors,scala.collection,scala.collection
+ .mutable,scala.reflect,scala.concurrent,scala.concurrent.forkjoin,scala
+ .sys,scala.util.control,scala.actors.threadpool,scala.actors.threadpool
+ .locks,scala.collection.immutable,scala.util";version="2.10.0.v20121205
+ -112020-VFINAL-18481cef9b",scala.actors;uses:="scala,scala.collection,s
+ cala.reflect,scala.runtime,scala.collection.immutable,scala.concurrent,
+ scala.concurrent.duration,scala.actors.scheduler,scala.collection.mutab
+ le,scala.collection.generic,scala.sys,scala.util.control,scala.concurre
+ nt.forkjoin";version="2.10.0.v20121205-112020-VFINAL-18481cef9b"
+Import-Package: scala,scala.collection,scala.collection.generic,scala.co
+ llection.immutable,scala.collection.mutable,scala.concurrent,scala.conc
+ urrent.duration,scala.concurrent.forkjoin,scala.reflect,scala.runtime,s
+ cala.sys,scala.util,scala.util.control
+Tool: Bnd-1.50.0

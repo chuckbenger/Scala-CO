@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.github.axel22
+Implementation-Title: scalameter
+Implementation-Version: 0.4
+Implementation-Vendor-Id: com.github.axel22
+Specification-Vendor: com.github.axel22
+Specification-Title: scalameter
+Specification-Version: 0.4
+Main-Class: org.scalameter.Main
+

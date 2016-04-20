@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="scala-co"
+		module="scala-co_2.10"
+		revision="1.0"
+		status="integration"
+		publication="20141030061510"
+	>
+		<description>
+		Scala CO
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="atmos-trace-compile" visibility="private" description="" extends="runtime-internal"/>
+		<conf name="atmos-trace-test" visibility="private" description="" extends="atmos-trace-compile,test-internal"/>
+		<conf name="atmos-dev" visibility="private" description=""/>
+		<conf name="atmos-console" visibility="private" description=""/>
+		<conf name="atmos-weave" visibility="private" description=""/>
+		<conf name="atmos-sigar" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="scala-co_2.10" type="pom" ext="pom" conf="pom"/>
+		<artifact name="scala-co_2.10" type="jar" ext="jar" conf="compile"/>
+		<artifact name="scala-co_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="scala-co_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.slick" name="slick_2.10" rev="2.0.1" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.20" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="com.h2database" name="h2" rev="1.3.170" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.2.3" conf="compile->default(compile)"/>
+		<dependency org="org.xerial" name="sqlite-jdbc" rev="3.7.15-M1" conf="compile->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.atmos" name="atmos-trace_2.10" rev="1.3.0" conf="compile->default(compile)"/>
+		<dependency org="c3p0" name="c3p0" rev="0.9.1.2" conf="compile->default(compile)"/>
+		<dependency org="com.github.scala-blitz" name="scala-blitz_2.10" rev="1.0-M1" conf="compile->default(compile)"/>
+		<dependency org="org.clapper" name="classutil_2.10" rev="1.0.5" conf="compile->default(compile)"/>
+		<dependency org="org.clapper" name="grizzled-scala_2.10" rev="1.1.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.atmos" name="atmos-dev" rev="1.3.1" conf="atmos-dev->default(compile)"/>
+		<dependency org="com.typesafe.console" name="console-solo" rev="1.3.1" conf="atmos-console->default(compile)"/>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.3" conf="atmos-weave->default(compile)"/>
+		<dependency org="com.typesafe.atmos" name="atmos-sigar-libs" rev="1.3.1" conf="atmos-sigar->default(compile)"/>
+		<dependency org="com.typesafe.atmos" name="trace-akka-2.2.1_2.10" rev="1.3.1" conf="atmos-trace-compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.5.0_07-87 ("Apple Computer, Inc.")
+Extension-Name: com.mchange.v2.c3p0
+Specification-Vendor: Machinery For Change, Inc.
+Specification-Version: 1.0
+Implementation-Vendor-Id: com.mchange
+Implementation-Vendor: Machinery For Change, Inc.
+Implementation-Version: 0.9.1.2
+

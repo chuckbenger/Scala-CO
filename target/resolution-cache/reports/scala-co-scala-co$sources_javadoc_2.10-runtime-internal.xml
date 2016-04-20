@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="scala-co"
+		module="scala-co$sources_javadoc_2.10"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-trace-compile, atmos-trace-test, atmos-dev, atmos-console, atmos-weave, atmos-sigar"
+		date="20141030063535"/>
+	<dependencies>
+		<module organisation="org.clapper" name="classutil_2.10">
+			<revision name="1.0.5" status="release" pubdate="20140428145854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://software.clapper.org/classutil/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="BSD New" url="http://software.clapper.org/classutil/license.html"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/classutil_2.10/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/clapper/classutil_2.10/1.0.5/classutil_2.10-1.0.5.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="classutil_2.10" type="jar" ext="jar" status="no" details="" size="106386" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/classutil_2.10/jars/classutil_2.10-1.0.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/classutil_2.10/1.0.5/classutil_2.10-1.0.5.jar"/>
+					</artifact>
+					<artifact name="classutil_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="394431" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/classutil_2.10/docs/classutil_2.10-1.0.5-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/classutil_2.10/1.0.5/classutil_2.10-1.0.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="classutil_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26617" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/classutil_2.10/srcs/classutil_2.10-1.0.5-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/classutil_2.10/1.0.5/classutil_2.10-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="grizzled-slf4j_2.10">
+			<revision name="1.0.2" status="release" pubdate="20140427092709" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/bmc/grizzled-slf4j/#readme" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<license name="BSD" url="http://software.clapper.org/grizzled-slf4j/license.html"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.10/1.0.2/grizzled-slf4j_2.10-1.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="grizzled-slf4j_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="359909" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/docs/grizzled-slf4j_2.10-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.10/1.0.2/grizzled-slf4j_2.10-1.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="grizzled-slf4j_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2881" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/srcs/grizzled-slf4j_2.10-1.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.10/1.0.2/grizzled-slf4j_2.10-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="grizzled-slf4j_2.10" type="jar" ext="jar" status="no" details="" size="6418" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-slf4j_2.10/jars/grizzled-slf4j_2.10-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.10/1.0.2/grizzled-slf4j_2.10-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404061248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<metadata-artifact status="no" details="" size="4567" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49406" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="195678" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.7-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="grizzled-scala_2.10">
+			<revision name="1.2" status="release" pubdate="20140427094004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://software.clapper.org/grizzled-scala/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<license name="BSD" url="http://software.clapper.org/grizzled-scala/license.html"/>
+				<metadata-artifact status="no" details="" size="3075" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-scala_2.10/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.10/1.2/grizzled-scala_2.10-1.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="grizzled-scala_2.10" type="jar" ext="jar" status="no" details="" size="515904" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-scala_2.10/jars/grizzled-scala_2.10-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.10/1.2/grizzled-scala_2.10-1.2.jar"/>
+					</artifact>
+					<artifact name="grizzled-scala_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="804471" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-scala_2.10/docs/grizzled-scala_2.10-1.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.10/1.2/grizzled-scala_2.10-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="grizzled-scala_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133887" time="0" location="/Users/charlesbenger/.ivy2/cache/org.clapper/grizzled-scala_2.10/srcs/grizzled-scala_2.10-1.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/clapper/grizzled-scala_2.10/1.2/grizzled-scala_2.10-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.6" status="release" pubdate="20120221150840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3188" time="0" location="/Users/charlesbenger/.ivy2/cache/jline/jline/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/2.6/jline-2.6.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jline" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="267141" time="0" location="/Users/charlesbenger/.ivy2/cache/jline/jline/docs/jline-2.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/2.6/jline-2.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64468" time="0" location="/Users/charlesbenger/.ivy2/cache/jline/jline/srcs/jline-2.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/2.6/jline-2.6-sources.jar"/>
+					</artifact>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="183537" time="0" location="/Users/charlesbenger/.ivy2/cache/jline/jline/jars/jline-2.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/2.6/jline-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-async_2.10">
+			<revision name="0.9.1" status="release" pubdate="20140406110737" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scala/async" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="Scala license" url="https://github.com/scala/async/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3134" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-async_2.10/0.9.1/scala-async_2.10-0.9.1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-async_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29202" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/srcs/scala-async_2.10-0.9.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-async_2.10/0.9.1/scala-async_2.10-0.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-async_2.10" type="jar" ext="jar" status="no" details="" size="452541" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/jars/scala-async_2.10-0.9.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-async_2.10/0.9.1/scala-async_2.10-0.9.1.jar"/>
+					</artifact>
+					<artifact name="scala-async_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="448403" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/docs/scala-async_2.10-0.9.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-async_2.10/0.9.1/scala-async_2.10-0.9.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140318164707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="434883" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.4-sources.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33913490" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.10.4-javadoc.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="5.0.2" status="release" pubdate="20140421024749" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<metadata-artifact status="no" details="" size="4402" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-util/ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.2/asm-util-5.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="no" details="" size="43296" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.2/asm-util-5.0.2.jar"/>
+					</artifact>
+					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1041260" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-5.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.2/asm-util-5.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="asm-util" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1702366" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-util/docs/asm-util-5.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.2/asm-util-5.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="5.0.2" status="release" pubdate="20140421024729" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<metadata-artifact status="no" details="" size="4408" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-commons/ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="41717" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.jar"/>
+					</artifact>
+					<artifact name="asm-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1041260" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-5.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="asm-commons" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1702366" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-commons/docs/asm-commons-5.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="5.0.2" status="release" pubdate="20140421024739" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="4397" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-tree/ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1041260" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-5.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="29037" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.jar"/>
+					</artifact>
+					<artifact name="asm-tree" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1702366" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm-tree/docs/asm-tree-5.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.2" status="release" pubdate="20140421024708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="3758" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="53232" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar"/>
+					</artifact>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1041260" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="asm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1702366" time="0" location="/Users/charlesbenger/.ivy2/cache/org.ow2.asm/asm/docs/asm-5.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scala-blitz" name="scala-blitz_2.10">
+			<revision name="1.0-M1" status="release" pubdate="20131204095254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-blitz.github.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2675" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.10/ivy-1.0-M1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.10/1.0-M1/scala-blitz_2.10-1.0-M1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0-M1" rev-constraint-default="1.0-M1" rev-constraint-dynamic="1.0-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-blitz_2.10" type="jar" ext="jar" status="no" details="" size="3187411" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.10/jars/scala-blitz_2.10-1.0-M1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.10/1.0-M1/scala-blitz_2.10-1.0-M1.jar"/>
+					</artifact>
+					<artifact name="scala-blitz_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72872" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.10/srcs/scala-blitz_2.10-1.0-M1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.10/1.0-M1/scala-blitz_2.10-1.0-M1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-blitz_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1408523" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.10/docs/scala-blitz_2.10-1.0-M1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.10/1.0-M1/scala-blitz_2.10-1.0-M1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.axel22" name="scalameter_2.10">
+			<revision name="0.4" status="release" pubdate="20131030151124" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://axel22.github.com/scalameter/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.axel22/scalameter_2.10/ivy-0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/axel22/scalameter_2.10/0.4/scalameter_2.10-0.4.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalameter_2.10" type="jar" ext="jar" status="no" details="" size="1004802" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.axel22/scalameter_2.10/jars/scalameter_2.10-0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/axel22/scalameter_2.10/0.4/scalameter_2.10-0.4.jar"/>
+					</artifact>
+					<artifact name="scalameter_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="838836" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.axel22/scalameter_2.10/docs/scalameter_2.10-0.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/axel22/scalameter_2.10/0.4/scalameter_2.10-0.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalameter_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="273413" time="0" location="/Users/charlesbenger/.ivy2/cache/com.github.axel22/scalameter_2.10/srcs/scalameter_2.10-0.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/axel22/scalameter_2.10/0.4/scalameter_2.10-0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.0" status="release" pubdate="20120305041458" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="7419" time="0" location="/Users/charlesbenger/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.0/commons-math3-3.0.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1535361" time="0" location="/Users/charlesbenger/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.0/commons-math3-3.0-sources.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4066943" time="0" location="/Users/charlesbenger/.ivy2/cache/org.apache.commons/commons-math3/docs/commons-math3-3.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.0/commons-math3-3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="1285617" time="0" location="/Users/charlesbenger/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.0/commons-math3-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="1.9.1" status="release" pubdate="20121222125935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4873" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.9.1" rev-constraint-default="1.9.1" rev-constraint-dynamic="1.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="773075" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-1.9.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="3114958" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="20533" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scalatest/scalatest_2.10/docs/scalatest_2.10-1.9.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.1/scalatest_2.10-1.9.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-actors">
+			<revision name="2.10.0" status="release" pubdate="20121220013006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2548" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-actors" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="178028" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-actors/srcs/scala-actors-2.10.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0-sources.jar"/>
+					</artifact>
+					<artifact name="scala-actors" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33515231" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-actors/docs/scala-actors-2.10.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-actors" type="jar" ext="jar" status="no" details="" size="451307" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-actors/jars/scala-actors-2.10.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="c3p0" name="c3p0">
+			<revision name="0.9.1.2" status="release" pubdate="20070823050640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://c3p0.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2573" time="0" location="/Users/charlesbenger/.ivy2/cache/c3p0/c3p0/ivy-0.9.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.9.1.2" rev-constraint-default="0.9.1.2" rev-constraint-dynamic="0.9.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="c3p0" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="461040" time="0" location="/Users/charlesbenger/.ivy2/cache/c3p0/c3p0/srcs/c3p0-0.9.1.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="c3p0" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="112832" time="0" location="/Users/charlesbenger/.ivy2/cache/c3p0/c3p0/docs/c3p0-0.9.1.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="c3p0" type="jar" ext="jar" status="no" details="" size="610790" time="0" location="/Users/charlesbenger/.ivy2/cache/c3p0/c3p0/jars/c3p0-0.9.1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.4.1" status="release" pubdate="20110706143342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2948" time="0" location="/Users/charlesbenger/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200142" time="0" location="/Users/charlesbenger/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1070255" time="0" location="/Users/charlesbenger/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="450279" time="0" location="/Users/charlesbenger/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816123125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6364" time="0" location="/Users/charlesbenger/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="718287" time="0" location="/Users/charlesbenger/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.3-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1301413" time="0" location="/Users/charlesbenger/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.3-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="581571" time="0" location="/Users/charlesbenger/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial" name="sqlite-jdbc">
+			<revision name="3.7.15-M1" status="release" pubdate="20130622062252" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3213" time="0" location="/Users/charlesbenger/.ivy2/cache/org.xerial/sqlite-jdbc/ivy-3.7.15-M1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.15-M1/sqlite-jdbc-3.7.15-M1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="3.7.15-M1" rev-constraint-default="3.7.15-M1" rev-constraint-dynamic="3.7.15-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="sqlite-jdbc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="201629" time="0" location="/Users/charlesbenger/.ivy2/cache/org.xerial/sqlite-jdbc/docs/sqlite-jdbc-3.7.15-M1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.15-M1/sqlite-jdbc-3.7.15-M1-javadoc.jar"/>
+					</artifact>
+					<artifact name="sqlite-jdbc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3588741" time="0" location="/Users/charlesbenger/.ivy2/cache/org.xerial/sqlite-jdbc/srcs/sqlite-jdbc-3.7.15-M1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.15-M1/sqlite-jdbc-3.7.15-M1-sources.jar"/>
+					</artifact>
+					<artifact name="sqlite-jdbc" type="jar" ext="jar" status="no" details="" size="3677896" time="0" location="/Users/charlesbenger/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.7.15-M1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.15-M1/sqlite-jdbc-3.7.15-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023033548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2638" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2669443" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="321821" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.3-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2229531" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/docs/akka-actor_2.10-2.2.3-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.2" status="release" pubdate="20130703080814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2723" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe/config/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="187497" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe/config/jars/config-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="126063" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="160436" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe/config/docs/config-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.170" status="release" pubdate="20121130001810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2337" time="0" location="/Users/charlesbenger/.ivy2/cache/com.h2database/h2/ivy-1.3.170.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.170/h2-1.3.170.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.3.170" rev-constraint-default="1.3.170" rev-constraint-dynamic="1.3.170" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="h2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3101892" time="0" location="/Users/charlesbenger/.ivy2/cache/com.h2database/h2/docs/h2-1.3.170-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.170/h2-1.3.170-javadoc.jar"/>
+					</artifact>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1469903" time="0" location="/Users/charlesbenger/.ivy2/cache/com.h2database/h2/jars/h2-1.3.170.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.170/h2-1.3.170.jar"/>
+					</artifact>
+					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038972" time="0" location="/Users/charlesbenger/.ivy2/cache/com.h2database/h2/srcs/h2-1.3.170-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.170/h2-1.3.170-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-nop">
+			<revision name="1.6.4" status="release" pubdate="20111031174556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="4371" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4811" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar"/>
+					</artifact>
+					<artifact name="slf4j-nop" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4394" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-nop/srcs/slf4j-nop-1.6.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-nop" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="32306" time="0" location="/Users/charlesbenger/.ivy2/cache/org.slf4j/slf4j-nop/docs/slf4j-nop-1.6.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.10">
+			<revision name="2.0.1" status="release" pubdate="20140321093605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2820" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.slick/slick_2.10/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.1/slick_2.10-2.0.1.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slick_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5383750" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.slick/slick_2.10/docs/slick_2.10-2.0.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.1/slick_2.10-2.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="slick_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="212454" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.slick/slick_2.10/srcs/slick_2.10-2.0.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.1/slick_2.10-2.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="slick_2.10" type="jar" ext="jar" status="no" details="" size="3592081" time="0" location="/Users/charlesbenger/.ivy2/cache/com.typesafe.slick/slick_2.10/jars/slick_2.10-2.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/slick/slick_2.10/2.0.1/slick_2.10-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927044454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2585" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="scala-co" name="scala-co$sources_javadoc_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33911475" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.3-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062304" time="0" location="/Users/charlesbenger/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

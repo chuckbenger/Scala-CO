@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Typesafe
+Implementation-Title: Slick
+Implementation-Version: 2.0.1
+Implementation-Vendor-Id: com.typesafe.slick
+Specification-Vendor: Typesafe
+Specification-Title: Slick
+Implementation-URL: http://slick.typesafe.com
+Specification-Version: 2.0.1
+Main-Class: scala.slick.model.codegen.SourceCodeGenerator
+
